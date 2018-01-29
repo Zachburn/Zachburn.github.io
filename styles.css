@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    background-color: #606060;
+    background-opacity: .2;
+  border: yes;
+  border: 1px;
+  color: #fff;
+  border-radius: 20px;
+
+}
+
+a:link, a:visited {
+font-family: 'Roboto';
+  font-size: 26px;
+  background-color: #D84835;
+  color: #FFFFFF;
+  display: block;
+  border-top: 3px solid;
+  border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  align:center;
+  max-width: 350px;
+   
+}
+
+a:hover {
+ background-color: #BFC1C1;
+ border: solid 6px;
+ border-color: #fff;
+ color: #fff;
+max-width:350px;
+}
+
+a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #444444;
+  transform: translateY(2px);
+}
+
+.container {
+	display: block;
+    max-width: 350px;
+  position: relative;
+  max-width: 100%;
+}
+
+.image {
+  display: block;
+ max-width: 350px;
+ width:100%;
+  border-color: #fff;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+  max-width:350px;
+ width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  max-width:350px;
+  width:100%
+}
+
+.text {
+  white-space: nowrap; 
+  color: #606060;
+  font-size: 12px;
+  font-family: roboto;
+  position: relative;
+  overflow: hidden;
+  text-align:center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  word-break: break-all;
+
+}
+
+@media only screen and (max-width: 450px) {
+    .text {
+        font-size: 14px;}
+     a:link, a:visited{
+         font-size: 26px;
+    }
+    
+ @media only screen and (max-width: 375px) {
+    .text {
+        font-size: 14px;}
+          a:link, a:visited{
+         font-size: 26px;
+    }
+
+@media only screen and (max-width: 350px) {
+    .text {
+        font-size: 14px;}
+          a:link, a:visited{
+         font-size: 26px;
+    }
+    
+@media only screen and (max-width: 275px) {
+    .text {
+        font-size: 10px;}
+          a:link, a:visited{
+         font-size: 20px;
+    }
+    
+    
+@media only screen and (max-width: 250px) {
+    .text {
+        font-size: 9px;}
+          a:link, a:visited{
+         font-size: 18px;
+    }
+
+    }
